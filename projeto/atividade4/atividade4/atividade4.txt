@@ -1,0 +1,139 @@
+﻿<html>
+	<head>
+	   <title>Aula 2 </title>
+	   <style type="text/css">
+			h2 {color: black}
+           </style>
+	   <meta name= "author" content="seu nome">
+	   <meta name= "keywords" content="primeiro programa, autoria web, conhecendo
+ tags">
+	</head>
+
+	<body>
+		<h1>Conteúdo</h1>
+		<link rel="stylesheet" type="text/css" href="demo.css"/>
+		<h2>#Dados pessoais</h2>
+    <img src="thay.jpg" width="150">
+
+ 			<h4>Nome:Thayná Ferreira Santana</h4>
+			<h4>Idade:22 anos</h4>
+			<h4>Sexo:Feminino</h4>
+			<h4>Endereço:Rua luiz xv, 226 - bairro nordeste - Natal/RN</h4>
+		<h2>#Dados profissionais</h2>
+     			<h4>Escolaridade:Ensino médio completo</h4>
+   			<h4>Formação profissional:-</h4>
+			<h4>Curriculo:Lattes</h4>
+			<a href="https://wwws.cnpq.br/cvlattesweb/PKG_MENU.menu?f_cod=386D95ADCC1BBDF339BD651488E026A6" target="_blank">W3C</a>
+      <h2>#Filmes e livros favoritos</h2>
+      <h3>Livros</h3>
+      <img src="acabana.jpg" width="100">
+      <img src="diariodeanne.jpg" width="100">
+      <img src="ovendedor.jpg" width="100">
+     <h3>Filmes</h3>
+       <img src="ateoultimo.jpg" width="100">
+       <img src="harry.png" width="200">
+       <img src="leao.jpg" width="150">
+    <h3>Bandas musicais favoritas</h3>
+       <img src="cbjr.jpg" width="200">
+       <img src="eng.jpg" width="150">
+       <img src="legiao.jpg" width="150">
+       <img src="nati.jpg" width="200">
+       <img src="raul.jpg" width="150"
+
+	</body>
+
+
+<body>
+<h1 id="título">Curso de Html</h1>
+<body>
+<h2 id="inscrições">Inscrições</h2>
+
+<form action="/pagina-processa-dados-do-form" method="post">
+<fieldset>
+<div>
+<label for="nome">Nome: </label>
+<input type="text" id="nome"/>
+</div>
+
+<div>
+<label for="email">E-mail:</label>
+<input type="email" id="email"/>
+</div>
+
+<div>
+<label for="tel">Telefone:</label>
+<input type="tel" id="tel"/>
+</div>
+<h3 id="Dúvidas/Sugestões">Dúvidas/Sugestões</h3>
+
+<div>
+<label for="msg">Mensagem:</label>
+<textarea id="msg"></textarea>
+</div>
+<div class="button">
+<button type="submit">enviar sua mensagem</button>
+</div>
+</fieldset>
+</form>
+
+<style>
+body{background-image:url("html.png")} 
+body{backgroung-size:"600px"}
+body {background-repeat: no-repeat}
+body {background-position: bottom}
+h1,h2,h3{color: darkblue}
+h1,h2,h3{background-color: white}
+h1,h2,h3{font-size: 30px}
+h1,h2,h3{font-weight: lighter}
+fieldset{width:950px; height:420px}
+
+
+</style>
+<body>
+<h1 id="título">#Venda de produtos</h1>
+</body>
+<body>
+<h1>Biquines</h1> 
+<img src="biquine.jpg"width="200">
+</body>
+
+<h4> Olá, sejam bem vindos a minha loja online de biquines. Qualquer biquine custa 50,00 reais. Para realizar a compra basta informar a quantidade de peças que deseja comprar, e abaixo digitar o valor da peça(50,00 reais). Automaticamente vai aparecer o valor total no outro campo abaixo. Após isso basta clicar no botão"Finalizar compra" e prontinho, só aguardar o seu recebido pago rs :). </h4>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <script>
+      function calctotal(){
+        var q = parseFloat(document.getElementById('quantidade').value);
+
+        
+        var p = parseFloat(document.getElementById('preço').value);
+        
+
+        var resul = q*50;
+
+        document.getElementById('total').value = resul;
+
+      }
+
+    </script>
+
+    <form method="POST" action="" oninput="calctotal()">
+        <label for="quantidade">quantidade</label><input type="number" id="quantidade"/></br>
+        <label for="Preço">valor da unidade </label><input type="number" min="1" max="100"
+        id="preço"/></br>
+        Valor total: <input type="text" id="total" readonly/> 
+
+    <button type="submit">Finalizar compra </button>
+
+    </form>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
